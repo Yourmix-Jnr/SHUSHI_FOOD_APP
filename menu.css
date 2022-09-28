@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+}
+.fsection {
+    box-sizing: border-box;
+    position: absolute;
+    width: 132px;
+    height: 552px;
+    left: 57px;
+    top: 20px;
+    box-shadow: 2px 3px 2px 3px #E5E5E5;
+    background: #0C0B0B;
+    border-radius: 24px;
+}
+.fsection-content a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#sushiicon {
+    position: absolute;
+    margin-top: 2em;
+}
+#homeicon {
+    position: absolute;
+    margin-top: 7.5em;
+}
+#cutleryicon {
+    position: absolute;
+    margin-top: 12.5em;
+    padding: 15px 42px 15px 42px;
+    background: #F1D5BB;
+}
+#carticon {
+    position: absolute;
+    margin-top: 19em;
+}
+#locationicon {
+    position: absolute;
+    margin-top: 24.5em;
+}
+#logouticon {
+    position: absolute;
+    margin-top: 30em;
+}
+.ssection {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 250px;
+   /* border: 1px solid #E5E5E5; */
+    top: 25px;
+}
+.ssection h2 {
+    position: absolute;
+    left: 5px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    /* identical to box height */
+    color: #000000;
+}
+.ssection hr {
+    position: absolute;
+    width: 306px;
+    height: 5px;
+    left: 5px;
+    border: none;
+    top: 65px;
+    background: #F1D5BB;
+}
+.tsection {
+    position: absolute;
+    width: 1000px;
+    height: 350px;
+   /* border: 1px solid black; */
+    left: 250px;
+    top: 115px;
+}
+.tsection-content {
+    display: inline-block;
+}
+.Smashed {
+    position: absolute;
+    display: grid;
+}
+.Smashed img {
+    width: 150px;
+    height: 170px;
+    border-radius: 2px;
+}
+.caption {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+.Yin {
+    position: absolute;
+    display: grid;
+    margin-left: 15em;
+}
+.Yin img {
+    width: 150px;
+    height: 170px;
+    border-radius: 2px;
+}
+.Pancakes {
+    position: absolute;
+    display: grid;
+    margin-left: 30em;
+}
+.Pancakes img {
+    width: 150px;
+    height: 170px;
+    border-radius: 2px;
+}
+.Huevos {
+    position: absolute;
+    display: grid;
+    margin-left: 45em;
+}
+.Huevos img {
+    width: 150px;
+    height: 170px;
+    border-radius: 2px;
+}
+.ffsection {
+    display: flex;
+}
+button {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+   /* box */
+    position: absolute;
+    width: 190px;
+    height: 50px;
+    left: 550px;
+    top: 600px;
+    background: #000000;
+    border: none;
+    border-radius: 2px;
+}
+.lsection {
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+.lsection span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 2em;
+}
