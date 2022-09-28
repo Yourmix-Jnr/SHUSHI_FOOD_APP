@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+.fsection {
+    box-sizing: border-box;
+    position: absolute;
+    width: 132px;
+    height: 552px;
+    left: 57px;
+    top: 20px;
+    box-shadow: 2px 3px 2px 3px #E5E5E5;
+    background: #0C0B0B;
+    border-radius: 24px;
+}
+.fsection-content a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#sushiicon {
+    position: absolute;
+    margin-top: 2em;
+}
+#homeicon {
+    position: absolute;
+    margin-top: 7.5em;
+}
+#cutleryicon {
+    position: absolute;
+    margin-top: 12.5em;
+    padding: 15px 42px 15px 42px;
+    background: #F1D5BB;
+}
+#carticon {
+    position: absolute;
+    margin-top: 19em;
+}
+#locationicon {
+    position: absolute;
+    margin-top: 24.5em;
+}
+#logouticon {
+    position: absolute;
+    margin-top: 30em;
+}
+.ssection {
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 250px;
+    top: 25px;
+}
+.ssection h2 {
+    position: absolute;
+    left: 5px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+}
+.ssection hr {
+    position: absolute;
+    width: 130px;
+    height: 5px;
+    left: 5px;
+    border: none;
+    top: 65px;
+    background: #F1D5BB;
+}
+.tsection {
+    position: absolute;
+    width: 650px;
+    height: 510px;
+    left: 250px;
+    top: 120px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}
+.firstbox {
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    top: 20px;
+}
+.secondbox {
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    top: 135px;
+}
+.thirdbox {
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    top: 250px;
+}
+.fourthbox {
+    position: absolute;
+    width: 650px;
+    height: 120px;
+    top: 370px;
+}
+.tsection-fimage {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 20px;
+    top: 15px;
+    border-radius: 50em;
+}
+.tsection-h3 {
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+.tsection-p {
+    position: absolute;
+    left: 150px;
+    top: 65px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+.tsection-minus {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.tsection-box {
+    position: absolute;
+    width: 42px;
+    height: 30px;
+    left: 420px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+}
+.tsection-box span {
+    position: absolute;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+.tsection-plus {
+    position: absolute;
+    left: 470px;
+    top: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+.tsection-simage {
+    position: absolute;
+    width: 15px;
+    left: 600px;
+    top: 60px;
+}
+.f4section {
+    position: absolute;
+    width: 350px;
+    height: 250px;
+    left: 60em;
+    top: 120px;
+    background: #F1D5BB;
+    border-radius: 3px;
+}
+.f4section-h3 {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 50px;
+}
+.f4section-p1 {
+    position: absolute;
+    left: 50px;
+    top: 90px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+.f4section-p2 {
+    position: absolute;
+    left: 170px;
+    top: 90px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+}
+#f4-button {
+    border: none;
+    width: 250px;
+    height: 70px;
+    margin-left: 52px;
+    margin-top: 145px;
+    background: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+}
+.f5section {
+    position: absolute;
+    width: 350px;
+    height: 260px;
+    left: 60em;
+    top: 370px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    border-radius: 3px
+}
+.f5-box {
+    box-sizing: border-box;
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 50px;
+    top: 90px;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+}
+.f5-box span{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+   color: #00000099;
+}
+#f5-button {
+    border: none;
+    width: 200px;
+    height: 70px;
+    margin-left: 52px;
+    margin-top: 165px;
+    background: #000;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+}
+.lsection {
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+.lsection span {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 2em;
+}
